@@ -115,7 +115,7 @@ img {
 
 #forside_h1 {
     position: absolute;
-    margin-left: 45rem;
+    margin-left: 55rem;
     margin-top: 4rem;
     font-size: 1.6rem;
     color: white;
@@ -125,7 +125,7 @@ img {
 
 #forside_h2 {
     position: absolute;
-    margin-left: 45rem;
+    margin-left: 55rem;
     margin-top: 8rem;
     font-size: 1rem;
     color: white;
@@ -157,7 +157,7 @@ img {
     height: 30vw;
     width: 99vw;
     margin-left: 0.5vw;
-    background-color: lightgrey;
+    background-color: #f2f2f2;
 
     margin-bottom: 1vw;
 
@@ -171,9 +171,9 @@ img {
 
 #service_billede {
     position: absolute;
-    width: 30vw;
+    width: 40vw;
     height: 20vw;
-    margin-left: 46rem;
+    margin-left: 60rem;
     margin-top: 6vw;
 
 
@@ -184,8 +184,9 @@ img {
     position: absolute;
     top: 5rem;
     margin-right: 50rem;
-    margin-left: 7vw;
-    font-size: 1.4rem;
+    margin-left: 6vw;
+    margin-top: 2vw;
+    font-size: 1.9rem;
 
 }
 
@@ -193,8 +194,8 @@ img {
 #service_h2 {
     position: absolute;
     margin-left: 6vw;
-    margin-top: 0.1rem;
-    font-size: 1.3rem;
+    margin-top: 0.rem;
+    font-size: 2rem;
 
 }
 
@@ -203,7 +204,7 @@ img {
 }
 
 
-/*grønne arealer*/
+/*grÃ¸nne arealer*/
 
 #gronne_arealer_container {
     position: relative;
@@ -219,37 +220,41 @@ img {
 
 #gronne_arealer_h2 {
     position: absolute;
-    margin-left: 46rem;
-    font-size: 0.9rem;
+    margin-left: 57rem;
+    font-size: 1.4rem;
     margin-top: 2rem;
+    color: #ffffff;
 
 }
 
 #gronne_arealer_txt1 {
     position: absolute;
-    margin-top: 5rem;
-    margin-left: 46rem;
-    font-size: 1.3rem;
+    margin-top: 7rem;
+    margin-left: 57rem;
+    font-size: 1.8rem;
+    color: #ffffff;
 
 
 }
 
 #gronne_arealer_txt2 {
     position: absolute;
-    margin-top: 8rem;
-    font-size: 1.3rem;
-    margin-left: 46rem;
+    margin-top: 10rem;
+    font-size: 1.8rem;
+    margin-left: 57rem;
     width: 30vw;
+    color: #ffffff;
 
 }
 
 #gronne_arealer_txt3 {
     position: absolute;
-    margin-top: 14rem;
-    font-size: 1.3rem;
+    margin-top: 17rem;
+    font-size: 1.8rem;
     width: 30vw;
+    color: #ffffff;
 
-    margin-left: 46rem;
+    margin-left: 57rem;
 }
 
 #gronne_arealer_img {
@@ -258,7 +263,7 @@ img {
     height: 23vw;
     width: 45vw;
     margin-top: 3vw;
-    margin-left: 7vw;
+    margin-left: 6vw;
 
 }
 
@@ -292,7 +297,7 @@ img {
     top: 4rem;
     margin-right: 50rem;
     margin-left: 6vw;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     width: 20vw;
 
 
@@ -302,10 +307,10 @@ img {
 #sne_txt2 {
 
     position: absolute;
-    top: 10rem;
+    margin-top: 12rem;
     margin-right: 50rem;
     margin-left: 6vw;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     width: 20vw;
 
 
@@ -317,7 +322,7 @@ img {
     position: absolute;
     margin-left: 6vw;
     margin-top: 0.1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 #sne p {
@@ -350,17 +355,16 @@ img {
     position: absolute;
     margin-left: 6vw;
     margin-top: 0.1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: white
 }
 
 #vikar_txt1 {
     position: absolute;
     top: 4rem;
-    margin-right: 50rem;
     margin-left: 6vw;
-    font-size: 1.3rem;
-    width: 20vw;
+    font-size: 1.8rem;
+    width: 25vw;
     color: white
 }
 
@@ -370,8 +374,8 @@ img {
     top: 10rem;
     margin-right: 50rem;
     margin-left: 6vw;
-    font-size: 1.3rem;
-    width: 20vw;
+    font-size: 1.8rem;
+    width: 25vw;
     color: white
 }
 
@@ -407,8 +411,8 @@ img {
 #map_txt {
     position: absolute;
     margin-top: 5rem;
-    margin-left: 55rem;
-    font-size: 1.5rem;
+    margin-left: 57rem;
+    font-size: 1.8rem;
     width: 30vw;
 
 
@@ -492,6 +496,7 @@ footer {
     color: white;
 
 }
+
 
 /*   RESPONSIVE   */
 
