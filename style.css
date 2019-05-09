@@ -1,0 +1,858 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+
+}
+
+/*   MENU   */
+
+/*
+.hidden {
+        display: none
+       transform: scale(0)
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+*/
+
+/* unvisited link */
+header nav a:link {
+    color: #008000;
+}
+
+/* visited link */
+header nav a:visited {
+    color: white;
+}
+
+/* mouse over link */
+header nav a:hover {
+    color: black;
+}
+
+/* selected link */
+header nav a:active {
+    color: black;
+}
+
+header {
+    line-height: 0.1;
+
+
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 14vw;
+
+
+
+}
+
+header nav a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-decoration: none;
+
+}
+
+header li {
+    padding: 2vw;
+
+    border: 2px solid #008000;
+}
+
+
+
+@font-face {
+    font-family: 'changoregular';
+    src: url('fonts/chango/chango-regular-webfont.woff2') format('woff2'),
+        url('chango-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*   FORSIDE   */
+
+
+#forside_container {
+    position: relative;
+    height: 30vw;
+    width: 99vw;
+    margin-left: 0.5vw;
+    background-color: #008000;
+    margin-bottom: 1vw;
+
+
+}
+
+#forside_h1 {
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    color: white;
+    font-family: changoregular;
+
+}
+
+#forside_h2 {
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: 8rem;
+    font-size: 1rem;
+    color: white;
+    font-family: changoregular;
+
+
+}
+
+
+#forside_billede {
+    position: absolute;
+    margin-top: 3vw;
+
+    margin-left: 6vw;
+    width: 30vw;
+}
+
+#forside_grass {
+    position: absolute;
+    top: 22.8vw;
+    width: 99vw;
+
+}
+
+/*   SERVICE   */
+
+#service_container {
+    position: relative;
+    height: 30vw;
+    width: 99vw;
+    margin-left: 0.5vw;
+    background-color: lightgrey;
+
+    margin-bottom: 1vw;
+
+}
+
+#service_opgaver p {
+    color: black;
+
+}
+
+
+#service_billede {
+    position: absolute;
+    width: 30vw;
+    height: 20vw;
+    margin-left: 46rem;
+    margin-top: 6vw;
+
+
+}
+
+
+#servicetxt {
+    position: absolute;
+    top: 5rem;
+    margin-right: 50rem;
+    margin-left: 7vw;
+    font-size: 1.4rem;
+
+}
+
+
+#service_h2 {
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+
+}
+
+#service_h1 {
+    display: none;
+}
+
+
+/*grønne arealer*/
+
+#gronne_arealer_container {
+    position: relative;
+    background-color: #008000;
+    height: 30vw;
+    width: 99vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vw;
+
+
+
+}
+
+#gronne_arealer_h2 {
+    position: absolute;
+    margin-left: 46rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+
+}
+
+#gronne_arealer_txt1 {
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 46rem;
+    font-size: 1.3rem;
+
+
+}
+
+#gronne_arealer_txt2 {
+    position: absolute;
+    margin-top: 8rem;
+    font-size: 1.3rem;
+    margin-left: 46rem;
+    width: 30vw;
+
+}
+
+#gronne_arealer_txt3 {
+    position: absolute;
+    margin-top: 14rem;
+    font-size: 1.3rem;
+    width: 30vw;
+
+    margin-left: 46rem;
+}
+
+#gronne_arealer_img {
+    position: absolute;
+
+    height: 23vw;
+    width: 45vw;
+    margin-top: 3vw;
+    margin-left: 7vw;
+
+}
+
+
+
+/*SNE*/
+
+#sne_container {
+    position: relative;
+    height: 30vw;
+    width: 99vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vw;
+
+}
+
+
+
+
+
+#sne_baggrund {
+    position: absolute;
+    height: 30vw;
+    width: 100%;
+}
+
+#sne_txt1 {
+
+
+    position: absolute;
+    top: 4rem;
+    margin-right: 50rem;
+    margin-left: 6vw;
+    font-size: 1.3rem;
+    width: 20vw;
+
+
+
+}
+
+#sne_txt2 {
+
+    position: absolute;
+    top: 10rem;
+    margin-right: 50rem;
+    margin-left: 6vw;
+    font-size: 1.3rem;
+    width: 20vw;
+
+
+
+
+}
+
+#sne_h2 {
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+}
+
+#sne p {
+    color: black;
+
+}
+
+#sne h2 {
+    color: black;
+}
+
+#sne h3 {
+    color: black;
+}
+
+/*Vikarservice*/
+
+#vikarservice_container {
+    position: relative;
+    height: 30vw;
+    background-color: #008000;
+    width: 99vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vw;
+
+
+}
+
+#vikar_h2 {
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    color: white
+}
+
+#vikar_txt1 {
+    position: absolute;
+    top: 4rem;
+    margin-right: 50rem;
+    margin-left: 6vw;
+    font-size: 1.3rem;
+    width: 20vw;
+    color: white
+}
+
+#vikar_txt2 {
+
+    position: absolute;
+    top: 10rem;
+    margin-right: 50rem;
+    margin-left: 6vw;
+    font-size: 1.3rem;
+    width: 20vw;
+    color: white
+}
+
+#vikar_img {
+    position: absolute;
+    height: 30vw;
+    width: 47.5vw;
+    margin-left: 52.3vw;
+
+
+
+}
+
+/*       Map        */
+
+#map_container {
+    position: relative;
+    height: 30vw;
+    width: 99vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vw;
+
+}
+
+
+#map_baggrund {
+    position: absolute;
+    height: 30vw;
+
+    width: 100%;
+}
+
+#map_txt {
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 55rem;
+    font-size: 1.5rem;
+    width: 30vw;
+
+
+}
+
+
+
+
+footer {
+    position: relative;
+    background-color: #181616;
+    height: 9vw;
+    width: 98vw;
+    margin-left: 0.9vw;
+    margin-top: 0.5vw;
+
+}
+
+
+#footer_img {
+    position: absolute;
+    width: 6vw;
+    height: 4vw;
+    margin-left: 70rem;
+    margin-top: 3vw;
+
+
+}
+
+
+#footer_title {
+    position: absolute;
+    margin-left: 20rem;
+
+
+    color: white;
+
+}
+
+#footer_adresse {
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 1rem;
+
+    color: white;
+
+}
+
+#footer_cvr {
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 6vw;
+
+    color: white;
+
+}
+
+#footer_tlf {
+    position: absolute;
+    margin-left: 40rem;
+
+    color: white;
+
+}
+
+#footer_email {
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: 3vw;
+
+    color: white;
+
+}
+
+#footer_bank {
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: 6vw;
+
+
+    color: white;
+
+}
+
+/*   RESPONSIVE   */
+
+/*
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+}
+*/
+
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+    /*
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+*/
+
+    #forside_container {
+        height: 130vw;
+        width: 100vw;
+        margin-bottom: 6vw;
+    }
+
+    #forside_h1 {
+        margin-left: 10vw;
+        margin-top: 0.1rem;
+        font-size: 1.6rem;
+        color: white;
+        font-family: changoregular;
+    }
+
+    #forside_h2 {
+        margin-left: 15vw;
+        margin-top: 4rem;
+        font-size: 1rem;
+        color: white;
+        font-family: changoregular;
+    }
+
+    #forside_billede {
+        margin-top: 52vw;
+
+        transform: rotate(15deg);
+        margin-left: 4vw;
+        width: 95vw;
+    }
+
+    #forside_grass {
+        margin-top: 93vw;
+        margin-left: 0vw;
+        width: 200vw;
+        height: 14vw;
+    }
+
+    #service_container {
+        display: flex;
+
+        height: 110vw;
+
+        margin-bottom: 6vw;
+
+    }
+
+    #service_opgaver p {
+        color: black;
+    }
+
+
+    #service_billede {
+        width: 90vw;
+        margin-left: 2vw;
+        margin-top: 6vw;
+
+
+    }
+
+
+    #servicetxt {
+        display: none;
+
+    }
+
+
+    #service_h2 {
+
+        display: none;
+
+    }
+
+    #service_h1 {
+
+        display: ;
+
+    }
+
+    #gronne_arealer_container {
+        height: 110vw;
+        width: 276vw;
+        margin-left: 0.5vw;
+        margin-bottom: 6vw;
+
+
+
+    }
+
+    #gronne_arealer_h2 {
+        display: none;
+
+    }
+
+    #gronne_arealer_txt1 {
+        display: none;
+
+
+
+    }
+
+    #gronne_arealer_txt2 {
+        display: none;
+
+
+    }
+
+    #gronne_arealer_txt3 {
+        display: none;
+
+    }
+
+    #gronne_arealer_img {
+
+        width: 100vw;
+        height: 100vw;
+        margin-left: 80vw;
+        margin-top: 6vw;
+
+    }
+
+    #sne_container {
+        height: 110vw;
+        width: 276vw;
+
+
+    }
+
+
+
+
+
+    #sne_baggrund {
+        width: 100vw;
+        height: 100vw;
+        margin-left: 80vw;
+        margin-top: 6vw;
+    }
+
+    #sne_txt1 {
+
+        display: none;
+
+
+
+    }
+
+    #sne_txt2 {
+
+        display: none;
+
+
+
+
+
+    }
+
+    #sne_h2 {
+        display: none;
+
+    }
+
+    #vikarservice_container {
+        height: 110vw;
+        width: 276vw;
+
+
+
+    }
+
+    #vikar_h2 {
+        display: none;
+    }
+
+    #vikar_txt1 {
+        display: none;
+
+    }
+
+    #vikar_txt2 {
+
+        display: none;
+
+    }
+
+    #vikar_img {
+        width: 100vw;
+        height: 100vw;
+        margin-left: 80vw;
+        margin-top: 6vw;
+
+
+
+    }
+
+    /*       Map        */
+
+    #map_container {
+        height: 110vw;
+        width: 276vw;
+
+
+    }
+
+
+    #map_baggrund {
+        width: 100vw;
+        height: 100vw;
+        margin-left: 80vw;
+        margin-top: 6vw;
+
+    }
+
+    #map_txt {
+        display: none;
+
+    }
+
+    footer {
+        position: relative;
+
+        height: 90vw;
+        width: 100vw;
+        margin-left: 80vw;
+        margin-top: 6vw;
+
+    }
+
+
+    #footer_img {
+        position: absolute;
+        width: 17vw;
+        height: 15vw;
+        margin-left: 20rem;
+        margin-top: 70vw;
+
+
+    }
+
+
+    #footer_title {
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: 10vw;
+        font-size: 1.3rem;
+
+
+
+    }
+
+    #footer_adresse {
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: 4rem;
+
+        font-size: 1.3rem;
+
+
+
+    }
+
+    #footer_cvr {
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: 22vw;
+
+        font-size: 1.3rem;
+
+    }
+
+    #footer_tlf {
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: 36vw;
+        font-size: 1.3rem;
+
+
+    }
+
+    #footer_email {
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: 42vw;
+        font-size: 1.3rem;
+
+
+    }
+
+    #footer_bank {
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: 55vw;
+        font-size: 1.3rem;
+
+    }
+
+
+
+    img {
+        width: 100%;
+    }
+
+
+}
